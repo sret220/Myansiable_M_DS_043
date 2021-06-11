@@ -2,6 +2,9 @@
 - hosts: all
   become: yes
   tasks:
+   -name: update
+    apt:
+      update_cache: yes
    - name: I want to install webserver on ubuntu
      apt:
        name: apache2
@@ -10,4 +13,3 @@
       apt:
         name: tree
         state: present
-        
