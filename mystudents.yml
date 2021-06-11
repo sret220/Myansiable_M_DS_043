@@ -1,0 +1,18 @@
+---
+- mystudent:
+  - name: abhi
+    phone:000000000
+    email:test@gmail.com
+    address: pune
+
+  - name: basha
+    phone:000000000
+    email:test@gmail.com
+    address: pune
+
+  - name: ravi
+    phone:000000000
+    email:test@gmail.com
+    address: pune
+  
+  
