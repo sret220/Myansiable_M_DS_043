@@ -2,14 +2,18 @@
 - hosts: all
   become: yes
   tasks:
-   - name: update
-    apt:
+ - name: update
+   apt:
       update_cache: yes
-   - name: I want to install webserver on ubuntu
-     apt:
+  - name: i want install webserver on ubunut pc
+    apt:
        name: apache2
        state: present
    - name: I want install tree
-      apt:
+     apt:
         name: tree
+        state: present
+    - name: i want install wget
+      apt:
+        name:wget
         state: present
