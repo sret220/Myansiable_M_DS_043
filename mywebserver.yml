@@ -9,5 +9,5 @@
   - name: I want to start webserver on ubuntu node
     service:
       name: apache2
-      state: Restarted
+      state: restarted
 
