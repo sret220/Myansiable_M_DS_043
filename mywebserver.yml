@@ -11,13 +11,13 @@
     service:
       name: "{{myubuntuwebpackage}}"
       state: restarted
-    when: ansible_os_family=="Debian"
+      when: ansible_os_family=="Debian"
 
    - name: I want to start webserver on redhat node
      service:
-      name: "{{myredhatwebpackage}}"
-      state: started
-    when: ansible_os_family=="RedHat"
+       name: "{{myredhatwebpackage}}"
+       state: started
+     when: ansible_os_family=="RedHat"
 
 
 
