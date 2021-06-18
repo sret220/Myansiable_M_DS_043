@@ -12,7 +12,6 @@
       name: "{{myubuntuwebpackage}}"
       state: restarted
       when: ansible_os_family=="Debian"
-
    - name: I want to start webserver on redhat node
      service:
        name: "{{myredhatwebpackage}}"
