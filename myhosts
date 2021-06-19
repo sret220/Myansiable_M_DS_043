@@ -1,5 +1,4 @@
 [myubuntuservers]
-#172.31.17.208
 172.31.30.84
 
 [mywebservers:vars]
